@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "fab-discovery-loop"
-version = "0.1.0a1"
-description = "Cost-aware experiment selection across explicit finite process hypotheses"
+version = "0.1.0a2"
+description = "Choisir des expériences sous budget et risque · Choose experiments under cost and risk · Elegir experimentos con coste y riesgo"
 readme = "README.md"
 requires-python = ">=3.11"
 license = "MIT"
