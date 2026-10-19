@@ -1,0 +1,24 @@
+{
+  "synthetic": true,
+  "name": "Micro-joint process window / Fenêtre de procédé de micro-assemblage / Ventana de proceso de microensamblaje",
+  "remaining_budget": 24,
+  "max_damage_probability": 0.25,
+  "machine": {"max_power": 4, "max_dose": 16, "capabilities": ["pulsed-energy", "optical-inspection"]},
+  "hypotheses": [
+    {"id": "low-fusion-threshold", "fuse_dose": 4, "damage_dose": 40, "fuse_width": 1, "damage_width": 4, "prior": 1},
+    {"id": "high-fusion-threshold", "fuse_dose": 9, "damage_dose": 65, "fuse_width": 1.5, "damage_width": 6, "prior": 1},
+    {"id": "fragile-material", "fuse_dose": 5, "damage_dose": 18, "fuse_width": 1, "damage_width": 3, "prior": 1}
+  ],
+  "designs": [
+    {"id": "p1-d2", "power": 1, "dwell": 2, "cost": 2, "capabilities": ["pulsed-energy"]},
+    {"id": "p1-d5", "power": 1, "dwell": 5, "cost": 3, "capabilities": ["pulsed-energy"]},
+    {"id": "p2-d2", "power": 2, "dwell": 2, "cost": 2.5, "capabilities": ["pulsed-energy"]},
+    {"id": "p2-d4", "power": 2, "dwell": 4, "cost": 3.5, "capabilities": ["pulsed-energy"]},
+    {"id": "p3-d2", "power": 3, "dwell": 2, "cost": 3, "capabilities": ["pulsed-energy"]},
+    {"id": "p3-d4", "power": 3, "dwell": 4, "cost": 4, "capabilities": ["pulsed-energy"]},
+    {"id": "p4-d2", "power": 4, "dwell": 2, "cost": 4, "capabilities": ["pulsed-energy"]},
+    {"id": "metrology-unavailable", "power": 2, "dwell": 3, "cost": 1, "capabilities": ["electron-microscopy"]}
+  ],
+  "pending": [],
+  "observations": []
+}
