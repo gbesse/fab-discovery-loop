@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fab-discovery-loop"
+version = "0.1.0a1"
+description = "Cost-aware experiment selection across explicit finite process hypotheses"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = []
+
+[project.scripts]
+fab-discovery = "fab_discovery.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["fab_discovery*"]
+
+[tool.setuptools.package-data]
+fab_discovery = ["web/*", "examples/*"]

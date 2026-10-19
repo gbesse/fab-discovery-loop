@@ -1,0 +1,7655 @@
+{
+  "synthetic": true,
+  "seed_count": 20,
+  "max_steps": 8,
+  "comparison_scope": "toy_finite_hypotheses_and_three_myopic_heuristics",
+  "summary": {
+    "information": {
+      "experiments": 7.833333333333333,
+      "cost": 23.141666666666666,
+      "entropy_bits": 0.09463207252428148,
+      "true_hypothesis_probability": 0.9731549044366546,
+      "damaged": 0.5666666666666667
+    },
+    "yield": {
+      "experiments": 6.933333333333334,
+      "cost": 23.366666666666667,
+      "entropy_bits": 0.2027727343377089,
+      "true_hypothesis_probability": 0.9297285925883282,
+      "damaged": 0.4166666666666667
+    },
+    "cheapest": {
+      "experiments": 8.0,
+      "cost": 16.0,
+      "entropy_bits": 1.4143535207946667,
+      "true_hypothesis_probability": 0.3993721130147448,
+      "damaged": 0.0
+    }
+  },
+  "runs": [
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 0,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.0009521611432560804,
+      "true_hypothesis_probability": 0.999939433930496,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 0,
+      "strategy": "yield",
+      "experiments": 7,
+      "cost": 23.0,
+      "entropy_bits": 0.09550800345188874,
+      "true_hypothesis_probability": 0.9877828100988154,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 0,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.3348064486042137,
+      "true_hypothesis_probability": 0.5432152034735288,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 1,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.0009521611432560804,
+      "true_hypothesis_probability": 0.999939433930496,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 1,
+      "strategy": "yield",
+      "experiments": 7,
+      "cost": 23.0,
+      "entropy_bits": 0.09550800345188874,
+      "true_hypothesis_probability": 0.9877828100988154,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 1,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.18642230175503097,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 2,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.0009521611432560804,
+      "true_hypothesis_probability": 0.999939433930496,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 2,
+      "strategy": "yield",
+      "experiments": 7,
+      "cost": 23.0,
+      "entropy_bits": 0.09550800345188874,
+      "true_hypothesis_probability": 0.9877828100988154,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 2,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.18642230175503097,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 3,
+      "strategy": "information",
+      "experiments": 7,
+      "cost": 22.5,
+      "entropy_bits": 0.007473265400925233,
+      "true_hypothesis_probability": 0.9994337554776511,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 3,
+      "strategy": "yield",
+      "experiments": 7,
+      "cost": 23.0,
+      "entropy_bits": 0.09550800345188874,
+      "true_hypothesis_probability": 0.9877828100988154,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 3,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.18642230175503097,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 4,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.12286430738302959,
+      "true_hypothesis_probability": 0.9832407112701954,
+      "damaged": 1,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 4,
+      "strategy": "yield",
+      "experiments": 7,
+      "cost": 23.0,
+      "entropy_bits": 0.09550800345188874,
+      "true_hypothesis_probability": 0.9877828100988154,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 4,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.18642230175503097,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 5,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.0009521611432560804,
+      "true_hypothesis_probability": 0.999939433930496,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 5,
+      "strategy": "yield",
+      "experiments": 7,
+      "cost": 23.0,
+      "entropy_bits": 0.09550800345188874,
+      "true_hypothesis_probability": 0.9877828100988154,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 5,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.18642230175503097,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 6,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.0009521611432560804,
+      "true_hypothesis_probability": 0.999939433930496,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 6,
+      "strategy": "yield",
+      "experiments": 7,
+      "cost": 23.0,
+      "entropy_bits": 0.09550800345188874,
+      "true_hypothesis_probability": 0.9877828100988154,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 6,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.3348064486042137,
+      "true_hypothesis_probability": 0.5432152034735289,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 7,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.0009521611432560804,
+      "true_hypothesis_probability": 0.999939433930496,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 7,
+      "strategy": "yield",
+      "experiments": 7,
+      "cost": 23.0,
+      "entropy_bits": 0.09550800345188874,
+      "true_hypothesis_probability": 0.9877828100988154,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 7,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.334806448604214,
+      "true_hypothesis_probability": 0.5432152034735287,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 8,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.0043415476037399585,
+      "true_hypothesis_probability": 0.9996922675988759,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 8,
+      "strategy": "yield",
+      "experiments": 7,
+      "cost": 23.0,
+      "entropy_bits": 0.09550800345188874,
+      "true_hypothesis_probability": 0.9877828100988154,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 8,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.3348064486042137,
+      "true_hypothesis_probability": 0.5432152034735288,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 9,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.901796853281467,
+      "true_hypothesis_probability": 0.6894922418736695,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 9,
+      "strategy": "yield",
+      "experiments": 7,
+      "cost": 24,
+      "entropy_bits": 0.036086080740608636,
+      "true_hypothesis_probability": 0.9966040421400035,
+      "damaged": 1,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 9,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.3348064486042137,
+      "true_hypothesis_probability": 0.5432152034735288,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 10,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.0009521611432560804,
+      "true_hypothesis_probability": 0.999939433930496,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 10,
+      "strategy": "yield",
+      "experiments": 7,
+      "cost": 23.0,
+      "entropy_bits": 0.09550800345188874,
+      "true_hypothesis_probability": 0.9877828100988154,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 10,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.18642230175503097,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 11,
+      "strategy": "information",
+      "experiments": 7,
+      "cost": 23.5,
+      "entropy_bits": 0.017653624605967744,
+      "true_hypothesis_probability": 0.9983493885932246,
+      "damaged": 1,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 11,
+      "strategy": "yield",
+      "experiments": 7,
+      "cost": 23.0,
+      "entropy_bits": 0.09550800345188874,
+      "true_hypothesis_probability": 0.9877828100988154,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 11,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.18642230175503097,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 12,
+      "strategy": "information",
+      "experiments": 7,
+      "cost": 22.5,
+      "entropy_bits": 0.007473265400925233,
+      "true_hypothesis_probability": 0.9994337554776511,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 12,
+      "strategy": "yield",
+      "experiments": 7,
+      "cost": 23.5,
+      "entropy_bits": 0.32487311166153626,
+      "true_hypothesis_probability": 0.9463402019311846,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 12,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 0.7866960305595668,
+      "true_hypothesis_probability": 0.7960390457990204,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 13,
+      "strategy": "information",
+      "experiments": 7,
+      "cost": 22.5,
+      "entropy_bits": 0.007473265400925233,
+      "true_hypothesis_probability": 0.9994337554776511,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 13,
+      "strategy": "yield",
+      "experiments": 7,
+      "cost": 23.0,
+      "entropy_bits": 0.2259715159486509,
+      "true_hypothesis_probability": 0.9657276108084284,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 13,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.18642230175503097,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 14,
+      "strategy": "information",
+      "experiments": 7,
+      "cost": 23.5,
+      "entropy_bits": 0.017653624605967744,
+      "true_hypothesis_probability": 0.9983493885932246,
+      "damaged": 1,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 14,
+      "strategy": "yield",
+      "experiments": 7,
+      "cost": 23.0,
+      "entropy_bits": 0.09550800345188874,
+      "true_hypothesis_probability": 0.9877828100988154,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 14,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 0.7866960305595669,
+      "true_hypothesis_probability": 0.7960390457990203,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 15,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.0009521611432560804,
+      "true_hypothesis_probability": 0.999939433930496,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 15,
+      "strategy": "yield",
+      "experiments": 7,
+      "cost": 23.0,
+      "entropy_bits": 0.09550800345188874,
+      "true_hypothesis_probability": 0.9877828100988154,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 15,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.18642230175503097,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 16,
+      "strategy": "information",
+      "experiments": 7,
+      "cost": 22.5,
+      "entropy_bits": 0.007473265400925233,
+      "true_hypothesis_probability": 0.9994337554776511,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 16,
+      "strategy": "yield",
+      "experiments": 7,
+      "cost": 23.0,
+      "entropy_bits": 0.2259715159486509,
+      "true_hypothesis_probability": 0.9657276108084284,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 16,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.18642230175503097,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 17,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.0009521611432560804,
+      "true_hypothesis_probability": 0.999939433930496,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 17,
+      "strategy": "yield",
+      "experiments": 7,
+      "cost": 23.0,
+      "entropy_bits": 0.09550800345188874,
+      "true_hypothesis_probability": 0.9877828100988154,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 17,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 0.7866960305595668,
+      "true_hypothesis_probability": 0.7960390457990204,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 18,
+      "strategy": "information",
+      "experiments": 7,
+      "cost": 23.0,
+      "entropy_bits": 0.7600892536979189,
+      "true_hypothesis_probability": 0.7804746286447432,
+      "damaged": 1,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 18,
+      "strategy": "yield",
+      "experiments": 7,
+      "cost": 23.0,
+      "entropy_bits": 0.2259715159486509,
+      "true_hypothesis_probability": 0.9657276108084284,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 18,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.18642230175503097,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 19,
+      "strategy": "information",
+      "experiments": 7,
+      "cost": 23.5,
+      "entropy_bits": 0.017653624605967744,
+      "true_hypothesis_probability": 0.9983493885932246,
+      "damaged": 1,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 19,
+      "strategy": "yield",
+      "experiments": 7,
+      "cost": 23.0,
+      "entropy_bits": 0.09550800345188874,
+      "true_hypothesis_probability": 0.9877828100988154,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "low-fusion-threshold",
+      "seed": 19,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 0.7866960305595672,
+      "true_hypothesis_probability": 0.7960390457990203,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 0,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.005969441286543807,
+      "true_hypothesis_probability": 0.9995550309924125,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 0,
+      "strategy": "yield",
+      "experiments": 7,
+      "cost": 24,
+      "entropy_bits": 0.86779531991336,
+      "true_hypothesis_probability": 0.7107393784376528,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 0,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.47767956298515585,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 1,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.005969441286543807,
+      "true_hypothesis_probability": 0.9995550309924125,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 1,
+      "strategy": "yield",
+      "experiments": 6,
+      "cost": 23.5,
+      "entropy_bits": 0.00045698064093855733,
+      "true_hypothesis_probability": 0.9999724553548512,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 1,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.47767956298515585,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 2,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.008948186300971097,
+      "true_hypothesis_probability": 0.9992473284132756,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 2,
+      "strategy": "yield",
+      "experiments": 6,
+      "cost": 22.5,
+      "entropy_bits": 0.004274589559823358,
+      "true_hypothesis_probability": 0.9996715519449529,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 2,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.47767956298515585,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 3,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 3.3607868283922793e-06,
+      "true_hypothesis_probability": 0.9999998632170938,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 3,
+      "strategy": "yield",
+      "experiments": 6,
+      "cost": 23.5,
+      "entropy_bits": 0.8949419988097915,
+      "true_hypothesis_probability": 0.6884609988285453,
+      "damaged": 1,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "damaged"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 3,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.47767956298515585,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 4,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.24026488093918819,
+      "true_hypothesis_probability": 0.9607031241891496,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 4,
+      "strategy": "yield",
+      "experiments": 6,
+      "cost": 22.5,
+      "entropy_bits": 0.5207804137266122,
+      "true_hypothesis_probability": 0.8829640574781102,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 4,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.47767956298515585,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 5,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.005969441286543807,
+      "true_hypothesis_probability": 0.9995550309924125,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 5,
+      "strategy": "yield",
+      "experiments": 6,
+      "cost": 23.5,
+      "entropy_bits": 0.00045698064093855733,
+      "true_hypothesis_probability": 0.9999724553548512,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 5,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.47767956298515585,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 6,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.00013428739345908608,
+      "true_hypothesis_probability": 0.9999928133919102,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 6,
+      "strategy": "yield",
+      "experiments": 6,
+      "cost": 23.5,
+      "entropy_bits": 0.00045698064093855733,
+      "true_hypothesis_probability": 0.9999724553548512,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 6,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.47767956298515585,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 7,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.0001342873934590863,
+      "true_hypothesis_probability": 0.9999928133919102,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 7,
+      "strategy": "yield",
+      "experiments": 6,
+      "cost": 23.0,
+      "entropy_bits": 0.001408062586833929,
+      "true_hypothesis_probability": 0.9999048764777738,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 7,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.47767956298515585,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 8,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 3.3607868283922793e-06,
+      "true_hypothesis_probability": 0.9999998632170938,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 8,
+      "strategy": "yield",
+      "experiments": 6,
+      "cost": 23.5,
+      "entropy_bits": 0.08729010059331307,
+      "true_hypothesis_probability": 0.9890095238127371,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 8,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.47767956298515585,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 9,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.00013428739345908608,
+      "true_hypothesis_probability": 0.9999928133919102,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 9,
+      "strategy": "yield",
+      "experiments": 6,
+      "cost": 23.5,
+      "entropy_bits": 0.08729010059331307,
+      "true_hypothesis_probability": 0.9890095238127371,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 9,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.47767956298515585,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 10,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.00013428739345908608,
+      "true_hypothesis_probability": 0.9999928133919102,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 10,
+      "strategy": "yield",
+      "experiments": 6,
+      "cost": 23.5,
+      "entropy_bits": 0.8949419988097915,
+      "true_hypothesis_probability": 0.6884609988285453,
+      "damaged": 1,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 10,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.47767956298515585,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 11,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.0002480916599729477,
+      "true_hypothesis_probability": 0.9999860024941206,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 11,
+      "strategy": "yield",
+      "experiments": 7,
+      "cost": 24,
+      "entropy_bits": 0.09693096932218523,
+      "true_hypothesis_probability": 0.9891186513983555,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 11,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.47767956298515585,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 12,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.004967540603940801,
+      "true_hypothesis_probability": 0.9996134239438689,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 12,
+      "strategy": "yield",
+      "experiments": 7,
+      "cost": 24,
+      "entropy_bits": 0.8424083951022951,
+      "true_hypothesis_probability": 0.7751129770866366,
+      "damaged": 1,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 12,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.47767956298515585,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 13,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.00013428739345908608,
+      "true_hypothesis_probability": 0.9999928133919102,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 13,
+      "strategy": "yield",
+      "experiments": 6,
+      "cost": 23.5,
+      "entropy_bits": 0.08729010059331307,
+      "true_hypothesis_probability": 0.9890095238127371,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 13,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.47767956298515585,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 14,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.0002480916599729477,
+      "true_hypothesis_probability": 0.9999860024941206,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 14,
+      "strategy": "yield",
+      "experiments": 6,
+      "cost": 23.5,
+      "entropy_bits": 0.08729010059331307,
+      "true_hypothesis_probability": 0.9890095238127371,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 14,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.47767956298515585,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 15,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.00013428739345908608,
+      "true_hypothesis_probability": 0.9999928133919102,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 15,
+      "strategy": "yield",
+      "experiments": 6,
+      "cost": 23.0,
+      "entropy_bits": 0.9649262297817373,
+      "true_hypothesis_probability": 0.39019282988055365,
+      "damaged": 1,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "damaged"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 15,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.47767956298515585,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 16,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.0002480916599729477,
+      "true_hypothesis_probability": 0.9999860024941206,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 16,
+      "strategy": "yield",
+      "experiments": 6,
+      "cost": 23.5,
+      "entropy_bits": 0.00045698064093855733,
+      "true_hypothesis_probability": 0.9999724553548512,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 16,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.47767956298515585,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 17,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.0001342873934590863,
+      "true_hypothesis_probability": 0.9999928133919102,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 17,
+      "strategy": "yield",
+      "experiments": 7,
+      "cost": 24,
+      "entropy_bits": 0.86779531991336,
+      "true_hypothesis_probability": 0.7107393784376528,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 17,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.47767956298515585,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 18,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.2402648809391884,
+      "true_hypothesis_probability": 0.9607031241891496,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 18,
+      "strategy": "yield",
+      "experiments": 6,
+      "cost": 23.5,
+      "entropy_bits": 0.00045698064093855733,
+      "true_hypothesis_probability": 0.9999724553548512,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 18,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.47767956298515585,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 19,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.955543334108095,
+      "true_hypothesis_probability": 0.6299132382712385,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 19,
+      "strategy": "yield",
+      "experiments": 6,
+      "cost": 23.5,
+      "entropy_bits": 0.08729010059331307,
+      "true_hypothesis_probability": 0.9890095238127371,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "high-fusion-threshold",
+      "seed": 19,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.334806448604214,
+      "true_hypothesis_probability": 0.09671461180797657,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 0,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 20.5,
+      "entropy_bits": 0.0490109700303598,
+      "true_hypothesis_probability": 0.9945936473164516,
+      "damaged": 1,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 0,
+      "strategy": "yield",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.2893140248417507,
+      "true_hypothesis_probability": 0.9496164082990284,
+      "damaged": 1,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 0,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.3358981352598131,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 1,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 20.5,
+      "entropy_bits": 0.049010970030359834,
+      "true_hypothesis_probability": 0.9945936473164516,
+      "damaged": 1,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 1,
+      "strategy": "yield",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.024385242383796617,
+      "true_hypothesis_probability": 0.9978301026043379,
+      "damaged": 1,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 1,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.3358981352598131,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 2,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 21.0,
+      "entropy_bits": 0.059929246881497936,
+      "true_hypothesis_probability": 0.9931886965453441,
+      "damaged": 1,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 2,
+      "strategy": "yield",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.062463999536324775,
+      "true_hypothesis_probability": 0.992680360849048,
+      "damaged": 1,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 2,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.3358981352598131,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 3,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 21.0,
+      "entropy_bits": 0.024536882392322074,
+      "true_hypothesis_probability": 0.9978021426060197,
+      "damaged": 1,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 3,
+      "strategy": "yield",
+      "experiments": 7,
+      "cost": 23.0,
+      "entropy_bits": 0.09431137333157251,
+      "true_hypothesis_probability": 0.9880031344302624,
+      "damaged": 1,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 3,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.3358981352598131,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 4,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 20.5,
+      "entropy_bits": 0.049010970030359834,
+      "true_hypothesis_probability": 0.9945936473164516,
+      "damaged": 1,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 4,
+      "strategy": "yield",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.014786470309360684,
+      "true_hypothesis_probability": 0.9987483222495246,
+      "damaged": 1,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 4,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.3358981352598131,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 5,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 20.5,
+      "entropy_bits": 0.01605061471163502,
+      "true_hypothesis_probability": 0.9985194969562932,
+      "damaged": 2,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 5,
+      "strategy": "yield",
+      "experiments": 7,
+      "cost": 22.5,
+      "entropy_bits": 0.8672300637677914,
+      "true_hypothesis_probability": 0.7118513474797594,
+      "damaged": 1,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 5,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.3358981352598131,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 6,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.10424943227920402,
+      "true_hypothesis_probability": 0.9863291187553482,
+      "damaged": 2,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 6,
+      "strategy": "yield",
+      "experiments": 7,
+      "cost": 23.0,
+      "entropy_bits": 0.09550800345188874,
+      "true_hypothesis_probability": 0.012181620543404085,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 6,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.3348064486042137,
+      "true_hypothesis_probability": 0.3600701847184946,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 7,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 21.0,
+      "entropy_bits": 0.12958412277987316,
+      "true_hypothesis_probability": 0.9821135975125256,
+      "damaged": 1,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 7,
+      "strategy": "yield",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.03961291807442113,
+      "true_hypothesis_probability": 0.995972054825548,
+      "damaged": 1,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 7,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.3358981352598131,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 8,
+      "strategy": "information",
+      "experiments": 7,
+      "cost": 23.5,
+      "entropy_bits": 0.9848703947671036,
+      "true_hypothesis_probability": 0.5722887016149422,
+      "damaged": 2,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "damaged"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 8,
+      "strategy": "yield",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.17853465924502598,
+      "true_hypothesis_probability": 0.9731133205823402,
+      "damaged": 1,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 8,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.3348064486042137,
+      "true_hypothesis_probability": 0.36007018471849467,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 9,
+      "strategy": "information",
+      "experiments": 7,
+      "cost": 23.5,
+      "entropy_bits": 0.037733654185918675,
+      "true_hypothesis_probability": 0.9960153849075493,
+      "damaged": 2,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "damaged"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 9,
+      "strategy": "yield",
+      "experiments": 7,
+      "cost": 23.5,
+      "entropy_bits": 0.010070907855711077,
+      "true_hypothesis_probability": 0.9992057536371813,
+      "damaged": 2,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d4",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 9,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.3358981352598131,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 10,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.030371291195248357,
+      "true_hypothesis_probability": 0.9968921625057968,
+      "damaged": 2,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 10,
+      "strategy": "yield",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.03628168508530639,
+      "true_hypothesis_probability": 0.9962196096703358,
+      "damaged": 1,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 10,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.3358981352598131,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 11,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 21.0,
+      "entropy_bits": 0.024536882392322074,
+      "true_hypothesis_probability": 0.9978021426060197,
+      "damaged": 1,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 11,
+      "strategy": "yield",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.06246399953632485,
+      "true_hypothesis_probability": 0.992680360849048,
+      "damaged": 1,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 11,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.3358981352598131,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 12,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 23.0,
+      "entropy_bits": 0.0635055251762642,
+      "true_hypothesis_probability": 0.9925306213986539,
+      "damaged": 2,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 12,
+      "strategy": "yield",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.06247336039260584,
+      "true_hypothesis_probability": 0.9926798799561959,
+      "damaged": 1,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 12,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.3348064486042137,
+      "true_hypothesis_probability": 0.36007018471849467,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 13,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 21.5,
+      "entropy_bits": 0.1546479123418401,
+      "true_hypothesis_probability": 0.9777436257455286,
+      "damaged": 1,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 13,
+      "strategy": "yield",
+      "experiments": 7,
+      "cost": 23.0,
+      "entropy_bits": 0.44454105303926816,
+      "true_hypothesis_probability": 0.9079946196232602,
+      "damaged": 1,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "damaged"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 13,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.3358981352598131,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 14,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.10424943227920402,
+      "true_hypothesis_probability": 0.9863291187553482,
+      "damaged": 2,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 14,
+      "strategy": "yield",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.08127761799852948,
+      "true_hypothesis_probability": 0.9899342484811642,
+      "damaged": 1,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 14,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.3348064486042137,
+      "true_hypothesis_probability": 0.36007018471849467,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 15,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 23.5,
+      "entropy_bits": 0.0140593205730434,
+      "true_hypothesis_probability": 0.9987305103216404,
+      "damaged": 2,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p4-d2",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 15,
+      "strategy": "yield",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.2934102041811054,
+      "true_hypothesis_probability": 0.9483392939164865,
+      "damaged": 1,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 15,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.3358981352598131,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 16,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 21.5,
+      "entropy_bits": 0.1546479123418401,
+      "true_hypothesis_probability": 0.9777436257455286,
+      "damaged": 1,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 16,
+      "strategy": "yield",
+      "experiments": 7,
+      "cost": 23.0,
+      "entropy_bits": 0.2033929676715787,
+      "true_hypothesis_probability": 0.968201354559045,
+      "damaged": 1,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 16,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.3358981352598131,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 17,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 21.5,
+      "entropy_bits": 0.043545112044991924,
+      "true_hypothesis_probability": 0.99578065657981,
+      "damaged": 1,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 17,
+      "strategy": "yield",
+      "experiments": 8,
+      "cost": 24,
+      "entropy_bits": 0.014786470309360715,
+      "true_hypothesis_probability": 0.9987483222495246,
+      "damaged": 1,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 17,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.3358981352598131,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 18,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 20.5,
+      "entropy_bits": 0.00047430980284426764,
+      "true_hypothesis_probability": 0.9999717511253645,
+      "damaged": 2,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 18,
+      "strategy": "yield",
+      "experiments": 7,
+      "cost": 22.5,
+      "entropy_bits": 0.19593407323535678,
+      "true_hypothesis_probability": 0.9696953290899097,
+      "damaged": 1,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 18,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.4895901375732312,
+      "true_hypothesis_probability": 0.3358981352598131,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 19,
+      "strategy": "information",
+      "experiments": 8,
+      "cost": 20.5,
+      "entropy_bits": 0.23379589248478796,
+      "true_hypothesis_probability": 0.9618412684721371,
+      "damaged": 1,
+      "trace": [
+        {
+          "design": "p3-d2",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d2",
+          "outcome": "underfused"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 19,
+      "strategy": "yield",
+      "experiments": 7,
+      "cost": 23.0,
+      "entropy_bits": 0.2291524702919774,
+      "true_hypothesis_probability": 0.9628752887888572,
+      "damaged": 1,
+      "trace": [
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p2-d4",
+          "outcome": "good"
+        },
+        {
+          "design": "p3-d2",
+          "outcome": "damaged"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d5",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "true_hypothesis": "fragile-material",
+      "seed": 19,
+      "strategy": "cheapest",
+      "experiments": 8,
+      "cost": 16,
+      "entropy_bits": 1.334806448604214,
+      "true_hypothesis_probability": 0.3600701847184948,
+      "damaged": 0,
+      "trace": [
+        {
+          "design": "p1-d2",
+          "outcome": "good"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        },
+        {
+          "design": "p1-d2",
+          "outcome": "underfused"
+        }
+      ]
+    }
+  ]
+}

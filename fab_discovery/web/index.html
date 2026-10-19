@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Fab Discovery Loop</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="/">FAB / DISCOVERY LOOP</a>
+      <nav aria-label="Language">
+        <a href="?lang=fr">FR</a><a href="?lang=en">EN</a><a href="?lang=es">ES</a>
+      </nav>
+    </header>
+    <main>
+      <section class="intro">
+        <p class="eyebrow" data-i18n="eyebrow"></p>
+        <h1 data-i18n="title"></h1>
+        <p class="lede" data-i18n="lede"></p>
+      </section>
+      <section class="workspace">
+        <aside>
+          <span class="number">01 /</span>
+          <h2 data-i18n="next"></h2>
+          <p class="hint" data-i18n="notHardware"></p>
+          <div class="choice" id="recommendation">—</div>
+          <label class="field" for="risk"
+            ><span data-i18n="risk"></span><output id="risk-value">25%</output></label
+          ><input type="range" id="risk" min="0" max="50" value="25" />
+          <p class="hint" data-i18n="riskScope"></p>
+          <label class="field" for="truth" data-i18n="truth"></label
+          ><select id="truth">
+            <option>high-fusion-threshold</option>
+            <option>low-fusion-threshold</option>
+            <option>fragile-material</option></select
+          ><button id="simulate" data-i18n="simulate"></button>
+          <p id="status" role="status"></p>
+          <button class="secondary" id="reset" data-i18n="reset"></button>
+          <details>
+            <summary data-i18n="manual"></summary>
+            <label for="outcome" data-i18n="outcome"></label
+            ><select id="outcome">
+              <option value="underfused"></option>
+              <option value="good"></option>
+              <option value="damaged"></option></select
+            ><button id="record" data-i18n="record"></button>
+          </details>
+        </aside>
+        <article>
+          <div class="section-head">
+            <div>
+              <span class="number">02 /</span>
+              <h2 data-i18n="beliefs"></h2>
+            </div>
+            <span class="badge" data-i18n="synthetic"></span>
+          </div>
+          <div class="metrics">
+            <div><strong id="entropy">—</strong><span data-i18n="entropy"></span></div>
+            <div><strong id="budget">—</strong><span data-i18n="budget"></span></div>
+            <div><strong id="count">0</strong><span data-i18n="count"></span></div>
+          </div>
+          <div id="posterior"></div>
+          <h3 data-i18n="candidates"></h3>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th data-i18n="experiment"></th>
+                  <th data-i18n="info"></th>
+                  <th data-i18n="damage"></th>
+                  <th data-i18n="eligibility"></th>
+                </tr>
+              </thead>
+              <tbody id="candidates"></tbody>
+            </table>
+          </div>
+          <h3 data-i18n="history"></h3>
+          <div id="history"></div>
+          <div class="actions">
+            <button class="secondary" id="download" data-i18n="download"></button
+            ><code id="digest"></code>
+          </div>
+        </article>
+      </section>
+      <footer>
+        <p data-i18n="limits"></p>
+        <a href="https://github.com/gbesse/fab-discovery-loop">GitHub ↗</a>
+      </footer>
+    </main>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

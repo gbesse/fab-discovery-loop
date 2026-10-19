@@ -1,0 +1,15 @@
+{
+  "name": "fab-discovery-loop-web-checks",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "test": "python3 -m unittest discover -s tests -v",
+    "test:browser": "node tests/browser.mjs",
+    "format": "prettier --write fab_discovery/web tests/browser.mjs '*.md' package.json .github/workflows/*.yml",
+    "format:check": "prettier --check fab_discovery/web tests/browser.mjs '*.md' package.json .github/workflows/*.yml"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0",
+    "prettier": "3.7.4"
+  }
+}
